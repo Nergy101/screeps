@@ -1,8 +1,8 @@
-var roleHarvester = require("./roles/role.harvester");
-var roleUpgrader = require("./roles/role.upgrader");
-var roleBuilder = require("./roles/role.builder");
-var roleSoldier = require("./roles/role.soldier");
-var spawner = require("./structures/spawner");
+var roleHarvester = require("./role.harvester");
+var roleUpgrader = require("./role.upgrader");
+var roleBuilder = require("./role.builder");
+var roleSoldier = require("./role.soldier");
+var spawner = require("./spawner");
 
 module.exports.loop = function () {
   spawner.spawn();
